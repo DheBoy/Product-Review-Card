@@ -114,7 +114,14 @@ a:active{
         display: none;   
     }
     
-   
+    div.write-up{
+      
+        border-radius: 0px 0px 10px 10px;
+    
+    
+    }
+
+    
 
 
     
