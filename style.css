@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat||Fraunces||:wght@500;700;900&display=swap");
+body{
+    background-color: hsl(30, 38%, 92%);
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.image-product-desktop{
+    border-radius: 10px 0px 0px 10px;
+}
+.image-product-mobile{
+    display: none;
+}
+
+a{
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: hsl(158, 36%, 37%);   
+    color: white;
+    display: inline-block;
+    width: 90%;
+    text-align: center;   
+    padding: 10px;
+    
+    
+    
+}
+
+div.product-information{ 
+    font-size: 14px;
+    width: 550px;;
+    display: flex;
+    border-radius: 10px;  
+    height: 402px;
+    line-height: 1.5;
+
+}
+.type{
+ font-family:monospace;
+ letter-spacing: 5px;
+ text-transform: uppercase;
+}
+.product-name{
+    font-family: "Fraunces";
+    margin:2px 0px ;
+    font-weight:bold;
+    font-size: 35px;
+    line-height: 1;
+}
+.about-product{
+    margin-bottom: 25px;
+    font-family: "Montserrat";
+}
+
+div.write-up{
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding:0px 25px 25px;
+
+}
+
+div.price{
+    margin-top: -35px;
+    display:flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    margin-bottom: -15px;
+
+}
+h3{
+
+    color:hsl(158, 36%, 37%);
+    font-size: 30px; 
+    font-family: "Fraunces";
+}
+
+h5{
+    text-decoration-line: line-through;
+    opacity: 0.5;
+    
+}
+svg{
+padding-right:10px;
+}
+
+a:active{
+    background-color: rgb(7, 31, 14);
+}
+
+@media screen and (max-width:517px){
+    body{
+        height:70vh;
+        margin: 20px;
+        }    
+
+    div.product-information{  
+        width: min-content;  
+        display: flex;
+       flex-direction: column; 
+       background-color: none;
+    }
+
+    .image-product-mobile{
+        align-self: center;
+        display: block;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .image-product-desktop{
+        display: none;   
+    }
+    
+   
+
+
+    
+}
+    
