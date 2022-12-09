@@ -72,14 +72,14 @@ div.price{
     margin-bottom: -15px;
 
 }
-h3{
-
+.new-price{
+    font-weight:bolder;
     color:hsl(158, 36%, 37%);
     font-size: 30px; 
     font-family: "Fraunces";
 }
 
-h5{
+.old-price{
     text-decoration-line: line-through;
     opacity: 0.5;
     
